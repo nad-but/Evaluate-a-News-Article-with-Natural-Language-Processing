@@ -1,0 +1,40 @@
+form {
+    display: flex;
+    flex-direction: column;
+    border-radius: 16px;
+    align-items: center;
+    background-color: rgb(73, 73, 66);
+    input[type="text"] {
+        width: 80%;
+        height: 29px;
+        margin: 15px;
+        padding-left: 8px;
+        border-radius: 12px;
+        background-color: rgba(119, 137, 131, 0.895);
+        color: rgb(3, 251, 214);
+    }
+    ::-webkit-input-placeholder{
+       color: rgb(92, 72, 72);
+    }
+    input[type="submit"] {
+        cursor: pointer;
+        background-color: rgba(84, 215, 171, 0.678);
+        width: 70%;
+        height: 29px;
+        border-radius: 12px;
+        margin-bottom: 20px;
+        color: rgb(3, 66, 66);
+
+    }
+    
+    #inputURL{
+        width: 80%;
+        height: 29px;
+        margin: 15px;
+        padding-left: 8px;
+        border-radius: 12px;
+        background-color: rgba(119, 137, 131, 0.895);
+        color: rgb(3, 251, 214);
+    }
+}
+
